@@ -1,11 +1,11 @@
-# `utils`
+# `Utils`
 
-> TODO: description
+> Common utils.
 
 ## Usage
 
 ```
-import utils from 'utils';
+import utils from '@utils';
 
 // TODO: DEMONSTRATE API
 ```

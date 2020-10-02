@@ -1,4 +1,4 @@
-import button from '../src/button';
+import button from '../src';
 
 describe('button', () => {
     it('needs tests');

@@ -95,7 +95,7 @@ module.exports = {
     // 'react/jsx-props-no-spreading': [ignore],
     'react/static-property-placement': [error, 'static public field'],
     // 'react/state-in-constructor': [ignore],
-    'react/jsx-filename-extension': [warning, { extensions: ['.js', '.jsx'] }],
+    'react/jsx-filename-extension': [warning, { extensions: ['.js', '.jsx', '.tsx'] }],
     'react/destructuring-assignment': [error, 'always', { ignoreClassFields: true }],
     'jsx-a11y/label-has-associated-control': [ignore],
     'jsx-a11y/control-has-associated-label': [ignore],

@@ -1,12 +1,12 @@
 {
-  "name": "button",
+  "name": "@lerna-learning/button",
   "version": "1.0.0",
-  "description": "Now I’m the model of a modern major general / The venerated Virginian veteran whose men are all / Lining up, to put me up on a pedestal / Writin’ letters to relatives / Embellishin’ my elegance and eloquence / But the elephant is in the room / The truth is in ya face when ya hear the British cannons go / BOOM",
+  "description": "Button",
   "keywords": [],
   "author": "Aleksei Smoliakov <aleksei.smoliakov@domrf.ru>",
   "license": "ISC",
-  "main": "dist/button.js",
-  "module": "dist/button.module.js",
+  "main": "lib/index.js",
+  "module": "src/index.ts",
   "directories": {
     "lib": "dist",
     "test": "__tests__"
@@ -15,6 +15,19 @@
     "dist"
   ],
   "scripts": {
-    "test": "echo \"Error: run tests from root\" && exit 1"
+    "build": "../../node_modules/.bin/tsc -p tsconfig.json"
+  },
+  "devDependencies": {
+    "@emotion/core": "^10.0.35",
+    "@emotion/styled": "^10.0.27",
+    "@types/react": "^16.9.50",
+    "react": "^16.13.1",
+    "react-dom": "^16.13.1"
+  },
+  "peerDependencies": {
+    "@emotion/core": "^10.0.35",
+    "@emotion/styled": "^10.0.27",
+    "react": "^16.13.1",
+    "react-dom": "^16.13.1"
   }
 }

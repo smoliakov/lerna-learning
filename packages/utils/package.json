@@ -1,13 +1,12 @@
 {
-  "name": "utils",
+  "name": "@lerna-learning/utils",
   "version": "1.0.0",
-  "description": "Now I’m the model of a modern major general / The venerated Virginian veteran whose men are all / Lining up, to put me up on a pedestal / Writin’ letters to relatives / Embellishin’ my elegance and eloquence / But the elephant is in the room / The truth is in ya face when ya hear the British cannons go / BOOM",
+  "description": "Common utils",
   "keywords": [],
   "author": "Aleksei Smoliakov <aleksei.smoliakov@domrf.ru>",
   "license": "ISC",
-  "main": "dist/index.js",
-  "module": "dist/index.module.js",
-  "typings": "lib/typeings.d.ts",
+  "main": "lib/index.js",
+  "module": "src/index.ts",
   "directories": {
     "lib": "dist",
     "test": "__tests__"
@@ -16,6 +15,14 @@
     "dist"
   ],
   "scripts": {
-    "test": "echo \"Error: run tests from root\" && exit 1"
+    "build": "../../node_modules/.bin/tsc -p tsconfig.json"
+  },
+  "devDependencies": {
+    "react": "^16.13.1",
+    "react-dom": "^16.13.1"
+  },
+  "peerDependencies": {
+    "react": "^16.13.1",
+    "react-dom": "^16.13.1"
   }
 }

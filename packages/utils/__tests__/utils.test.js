@@ -1,5 +1,5 @@
-import utils from '../src/utils';
+// import { convertDate } from '../src/index';
 
 describe('utils', () => {
-    it('needs tests');
+  it('converts date');
 });

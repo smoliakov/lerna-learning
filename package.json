@@ -1,6 +1,9 @@
 {
   "name": "@lerna-learning/root",
   "private": true,
+  "publishConfig": {
+    "registry": "https://npm.pkg.github.com/"
+  } ,
   "devDependencies": {
     "@babel/eslint-parser": "^7.11.5",
     "@babel/eslint-plugin": "^7.11.5",

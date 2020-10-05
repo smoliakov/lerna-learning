@@ -61,3 +61,8 @@ export const formatPhone = (phone: string): string => {
 
   return phone;
 };
+
+/**
+ * Returns is window flag.
+ */
+export const isWindow = (): boolean => typeof window !== 'undefined';

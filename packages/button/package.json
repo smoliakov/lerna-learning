@@ -1,8 +1,15 @@
 {
-  "name": "@lerna-learning/button",
+  "name": "@smoliakov/button",
   "version": "1.0.1",
   "description": "Button",
   "keywords": [],
+  "publishConfig": {
+    "registry": "https://npm.pkg.github.com/"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git@github.com:smoliakov/lerna-learning.git"
+  },
   "author": "Aleksei Smoliakov <aleksei.smoliakov@domrf.ru>",
   "license": "ISC",
   "main": "lib/index.js",

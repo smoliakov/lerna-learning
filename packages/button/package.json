@@ -1,8 +1,10 @@
 {
   "name": "@smoliakov/button",
   "version": "1.0.2",
-  "description": "Button",
-  "keywords": [],
+  "description": "Component: Button",
+  "keywords": [
+    "button"
+  ],
   "publishConfig": {
     "registry": "https://npm.pkg.github.com/"
   },
@@ -15,14 +17,15 @@
   "main": "lib/index.js",
   "module": "src/index.ts",
   "directories": {
-    "lib": "dist",
-    "test": "__tests__"
+    "lib": "lib"
   },
   "files": [
-    "dist"
+    "lib"
   ],
+  "types": "lib/index.d.ts",
   "scripts": {
-    "build": "tsc -p tsconfig.json"
+    "build": "webpack",
+    "prepublish": "npm run build"
   },
   "devDependencies": {
     "@emotion/core": "^10.0.35",

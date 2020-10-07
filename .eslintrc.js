@@ -58,7 +58,7 @@ module.exports = {
     'import/no-unresolved': [ignore],
     'import/no-extraneous-dependencies': [warning, {
       devDependencies: [
-        'webpack.*.js',
+        'packages/**/webpack.*.js',
       ],
       optionalDependencies: false,
     }],

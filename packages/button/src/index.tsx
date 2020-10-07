@@ -2,19 +2,31 @@ import * as React from 'react';
 
 import * as Styled from './styled';
 
-interface Props {
-  children: React.ReactNode;
-  variant: 'small' | 'large';
+export interface ButtonProps {
+  size?: 'small' | 'large';
+  variant?: 'gray' | 'green' | 'darkGray' | 'darkBlue' | 'red';
+  htmlType?: 'reset' | 'submit' | 'button';
 }
 
+type Props = React.PropsWithChildren<ButtonProps>;
+
 const Button: React.FC<Props> = (props: Props) => {
-  const { variant, children } = props;
+  const {
+    size,
+    htmlType,
+    variant,
+    children,
+  } = props;
 
   return (
-    <Styled.Button type="submit" variant={variant}>
+    <Styled.Button variant={variant} type={htmlType} size={size}>
       {children}
     </Styled.Button>
   );
+};
+
+Button.defaultProps = {
+  htmlType: 'button',
 };
 
 export default Button;

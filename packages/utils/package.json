@@ -2,7 +2,9 @@
   "name": "@smoliakov/utils",
   "version": "1.0.3",
   "description": "Common utils",
-  "keywords": [],
+  "keywords": [
+    "utils"
+  ],
   "publishConfig": {
     "registry": "https://npm.pkg.github.com/"
   },
@@ -12,26 +14,25 @@
   },
   "author": "Aleksei Smoliakov <aleksei.smoliakov@domrf.ru>",
   "license": "ISC",
-  "main": "lib/index.js",
-  "module": "src/index.ts",
+  "main": "./lib/index.js",
+  "module": "./src/index.ts",
   "directories": {
     "lib": "lib",
     "test": "__tests__"
   },
   "files": [
-    "lib/*"
+    "lib/*",
+    "src/*"
   ],
+  "types": "./lib/index.d.ts",
   "scripts": {
-    "build": "webpack"
+    "build": "webpack",
+    "prepublish": "webpack"
   },
   "devDependencies": {
     "ts-loader": "^8.0.4",
     "typescript": "^4.0.3",
     "webpack": "^4.44.2",
     "webpack-cli": "^3.3.12"
-  },
-  "peerDependencies": {
-    "react": "^16.13.1",
-    "react-dom": "^16.13.1"
   }
 }

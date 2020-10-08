@@ -9,7 +9,7 @@ const config = {
     path: path.resolve(__dirname, 'lib'),
     filename: 'index.js',
     library: 'utils',
-    libraryTarget: 'commonjs',
+    libraryTarget: 'umd',
   },
   module: {
     rules: [

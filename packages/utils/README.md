@@ -1,11 +1,9 @@
-# `Utils`
+# Utils
 
-> Common utils.
+Common utils.
 
 ## Usage
 
 ```
-import utils from '@utils';
-
-// TODO: DEMONSTRATE API
+import * as utils from '@smoliakov/utils';
 ```

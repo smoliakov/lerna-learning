@@ -1,9 +1,12 @@
 {
   "extends": "../../tsconfig.json",
   "compilerOptions": {
-    "outDir": "./lib",
-    "rootDir": "./src",
-    "removeComments": true,
-    "jsx": "react"
+    "outDir": "lib",
+    "rootDir": "src",
+    "removeComments": false,
+    "jsx": "react",
+    "declaration": true,
+    "declarationDir": "lib",
+    "sourceMap": true
   }
 }

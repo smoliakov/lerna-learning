@@ -27,6 +27,7 @@ const Button: React.FC<Props> = (props: Props) => {
 
 Button.defaultProps = {
   htmlType: 'button',
+  size: undefined,
 };
 
 export default Button;

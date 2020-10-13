@@ -1,11 +1,11 @@
-# `button`
+# Button
 
-> TODO: description
+Simple button.
 
 ## Usage
 
-```
-import button from 'button';
+```js
+import Button from '@smoliakov/button';
 
-// TODO: DEMONSTRATE API
+<Button size="large" variant="green" htmlType="submit">Submit</Button>
 ```

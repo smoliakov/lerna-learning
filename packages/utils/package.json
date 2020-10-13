@@ -13,7 +13,7 @@
     "url": "git@github.com:smoliakov/lerna-learning.git"
   },
   "author": "Aleksei Smoliakov <aleksei.smoliakov@domrf.ru>",
-  "license": "ISC",
+  "license": "MIT",
   "main": "lib/index.js",
   "module": "src/index.ts",
   "directories": {
